@@ -1,0 +1,102 @@
+.section-about{
+    background-color: #F9FAFB;
+    margin-top: 50px;
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.about-us h6{
+  
+    background-color: #E5E7EB;
+    border-radius: 12px;
+    padding: 4px 20px 4px 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img{
+    width: 584px;
+    height: 694px;
+}
+
+.about-img img{
+    width: 400px;
+    height: 480px;
+}
+
+.about-text-all{
+    width: 584px;
+    height: 694px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about-title{
+    width: 503px;
+    height: 36px;
+}
+
+.about-title h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #111827;
+}
+
+.about-text{
+    width: 584px;
+    height: 634px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about-text span{
+    font-weight: 400;
+    font-size: 16px;
+    list-style: 24px;
+    color: #4B5563;
+}
+
+.about-text-2 span{
+    
+}
+
+.about-text-3{
+    
+}
+
+.about-text-4{
+    
+}
+
+.about-text-5{
+    
+}
+
+.about-text-6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-about-6-ul-1{
+    display: flex;
+    gap: 90px;
+}
+
+.text-about-6-ul-2{
+    display: flex;
+}
+
+.about-text-7{
+    
+}
+

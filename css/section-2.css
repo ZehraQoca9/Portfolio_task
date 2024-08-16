@@ -1,0 +1,48 @@
+
+
+
+
+
+
+.skill-title-div{
+    margin-top: 50px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+
+.skills-title{
+    background-color: #E5E7EB;
+    text-decoration: none;
+    padding: 4px 20px;
+    color: black;
+    
+}
+
+.skill{
+    text-align: center;
+}
+
+.section-skills{
+    text-align: center;
+}
+.icons-all{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-skills .icons i{
+  
+    font-size: 64px;
+
+}

@@ -1,0 +1,45 @@
+.header {
+    padding-top: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+
+    .header-div {
+        display: flex;
+    }
+
+    .right {
+        display: flex;
+        gap: 60px;
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    ul {
+        display: flex;
+        gap: 15px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+
+    .download {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    button {
+        background-color: #111827;
+        border-radius: 12px;
+        border: none;
+        padding: 5px 20px;
+    }
+
+}
