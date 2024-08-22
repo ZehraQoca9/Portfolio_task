@@ -1,43 +1,96 @@
 .main {
+    height: 552px;
     display: flex;
     justify-content: space-between;
+    padding: 96px 80px 96px 80px;
+}
+
+#main {
+    height: 360px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    gap: 48px;
 }
 
 .main .left {
-    width: 768px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.main .left .left-t {
     height: 152px;
-}
-
-h2{
-    font-size: 60px;
-    line-height: 72px;
-}
-
-.skills {
-    color: #4B5563;
-    max-width: 700px;
-    font-size: 16px;
-    margin-bottom: 20px;
-    line-height: 24px;
-    
-}
-
-.address-project{
-    width: 768px;
-    height: 56px;
-    font-size: 16px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.icons{
+.main .left .left-t h2 {
+    color: #111827;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.main .left p {
+    color: #4B5563;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.address-project {
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.address {
+    height: 24px;
+    display: flex;
+    gap: 8px;
+}
+
+.project {
+    width: 227px;
+    height: 24px;
+    display: flex;
+    gap: 8px;
+}
+
+.left .icons {
+    height: 36px;
+    display: flex;
+    gap: 16px;
+}
+
+#icons {
+    width: 116px;
+    height: 36px;
     display: flex;
     gap: 4px;
+    align-items: center;
+
+}
+
+#icons i {
+    color: #4B5563;
+    font-size: 20px;
+    padding: 6px;
+}
+
+.main .img {
+    width: 400px;
+    height: 360px;
+  
 }
 
 .main img {
     width: 280px;
     height: 320px;
-    box-shadow: 10px 10px gray;
+    box-shadow: 40px 40px #E5E7EB;
+    margin-left: 80px;
 }

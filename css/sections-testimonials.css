@@ -1,0 +1,83 @@
+.sections-testimonials{
+    height: 740px;
+    padding: 96px 80px 96px 80px;
+    background-color: #F9FAFB;
+    margin-top: 50px;
+}
+
+#sections-testimonials{
+    height: 548px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
+
+.cards{
+    height: 428px;
+    border-radius: 12px;
+    display: flex;
+    gap: 48px;
+}
+
+.testimo-card{
+    width: 373px;
+    height: 428px;
+    background-color: #FFF;
+    border-radius: 12px;
+    border: 0px 1px 0px 0px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-icon{
+    background-color: #9CA3AF;
+    width: 64px;
+    height: 64px;
+    padding: 20px;
+    border-radius: 64px;
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.card-icon i{
+    width: 40px;
+    height: 40px;
+    margin-top: 2.5px;
+}
+
+.testimo-card span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4B5563;
+
+}
+
+.testimo-card .name{
+    width: 277px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.testimo-card .name h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.testimo-card .name span{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #4B5563;
+}

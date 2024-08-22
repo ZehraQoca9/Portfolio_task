@@ -1,8 +1,12 @@
 @import url("../css/header.css");
 @import url("../css/main.css");
-@import url("../css/section-1.css");
-@import url("../css/section-2.css");
-@import url("../css/section-3.css");
+@import url("../css/section-about.css");
+@import url("../css/section-skills.css");
+@import url("../css/section-expe.css");
+@import url("../css/section-work.css");
+@import url("../css/sections-testimonials.css");
+@import url("../css/section-contact.css");
+@import url("../css/footer.css");
 
 
 * {
@@ -13,6 +17,6 @@
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
 }

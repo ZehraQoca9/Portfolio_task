@@ -1,0 +1,96 @@
+.section-experience{
+    background-color: #F9FAFB;
+    height: 1140px;
+    padding: 96px 80px 96px 80px;
+}
+
+.expe{
+    height: 948px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.expe-text{
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    padding: 20px 0 ;
+}
+
+.expe-btn{
+    width: 115px;
+    height: 28px;
+    border-radius: 12px;
+    padding: 4px 20px 4px 20px;
+    align-self: center;
+    border: none;
+}
+
+.expe-btn a{
+    text-decoration: none;
+    color: #4B5563;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.expe-desc{
+    height: 28px;
+}
+
+.expe-desc p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+.Frontend{
+    max-width: 832px;
+    height: 224px;
+    border-radius: 12px;
+    display: flex;
+    gap: 48px;
+    background-color: #fff;
+    margin: auto;
+    justify-content: space-between;
+    padding: 32px;
+    box-shadow: 0px 2px 2px grey;
+}
+
+.upwork{
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #111827;
+}
+
+ul{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+li{
+    color: #4B5563;
+}
+
+.div2{
+    width: 148px;
+    height: 24px;
+}
+
+.div2 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}

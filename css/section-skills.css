@@ -1,0 +1,113 @@
+.section-skills{
+    height: 560px;
+    padding: 96px 80px 96px 80px;
+    text-align: center;
+}
+
+.section-skills .skill{
+    height: 368px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.skills-text{
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-btn{
+    background-color: #E5E7EB;
+    width: 75px;
+    height: 28px;
+    border-radius: 12px;
+    padding: 4px 20px 4px 20px;
+    align-self: center;
+    border: none;
+}
+
+
+.skill-btn a{ 
+    width: 35px;
+    height: 20px;
+    text-decoration: none;
+    color: #4B5563;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    
+}
+
+.skills-desc{
+    height: 28px;
+    margin-top: 5px;
+}
+
+.skills-desc p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+.icons-all{
+    width: 1216px;
+    height: 248px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.section-skills .icons img{
+    width: 64px;
+    height: 64px;
+}
+
+.section-skills .icons .icon-react{
+    width: 69.82px;
+    height: 64px;
+}
+
+.section-skills .icons .icon-nodeJs{
+    width: 56.32px;
+    height: 64px;
+}
+
+.section-skills .icons .icon-nestJs{
+    width: 66.06px;
+    height: 64px;
+}
+
+.section-skills .icons .icon-sql{
+    width: 62.05px;
+    height: 64px;
+}
+
+.section-skills .icons .icon-mongoDb{
+    width: 29.77px;
+    height: 64px;
+}
+
+.section-skills .icons .icon-tailwindCss{
+    width: 104.73px;
+    height: 64px;
+}
+
+.section-skills .icons .icon-figma{
+    width: 42.67px;
+    height: 64px;
+}

@@ -1,34 +1,57 @@
 .section-about{
+    height: 962px;
     background-color: #F9FAFB;
-    margin-top: 50px;
-}
-
-.about-us{
     display: flex;
-    justify-content: center;
-    padding: 20px 0px;
+    justify-content: space-between;
+    padding: 96px 80px 96px 80px;
+}
+#section-about{
+    height: 770px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 }
 
-.about-us h6{
-  
-    background-color: #E5E7EB;
-    border-radius: 12px;
+
+.about-btn{
+    background-color: aqua;
+    width: 105px;
+    height: 28px;
+    border: none;
+    align-self: center;
     padding: 4px 20px 4px 20px;
+    border-radius: 12px;
+    background-color: #E5E7EB;
+}
+
+.about-btn a{
+    width: 105px;
+    height: 28px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    color: #111827;
 }
 
 .about{
+    height: 694px;
+    gap: 48px;
     display: flex;
     justify-content: space-between;
 }
 
 .about-img{
-    width: 584px;
     height: 694px;
+    margin: 5px;
 }
 
 .about-img img{
     width: 400px;
     height: 480px;
+    margin-left: 40px;
+    box-shadow: -40px 40px #F9FAFB;
 }
 
 .about-text-all{
@@ -40,13 +63,13 @@
 }
 
 .about-title{
-    width: 503px;
     height: 36px;
 }
 
 .about-title h3{
+    letter-spacing: -2px;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 36px;
     color: #111827;
 }
@@ -62,25 +85,11 @@
 .about-text span{
     font-weight: 400;
     font-size: 16px;
-    list-style: 24px;
+    line-height: 24px;
     color: #4B5563;
 }
 
-.about-text-2 span{
-    
-}
 
-.about-text-3{
-    
-}
-
-.about-text-4{
-    
-}
-
-.about-text-5{
-    
-}
 
 .about-text-6{
     display: flex;
@@ -96,7 +105,5 @@
     display: flex;
 }
 
-.about-text-7{
-    
-}
+
 
